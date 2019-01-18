@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portlet-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portal-kernel.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/catalina-sources.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/catalina-6.0.14.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/jAPI.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/commons-validator-1.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/jdt-compiler-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portal-core-lib.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portal-identity-lib.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portal-portlet-lib.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/portal-api-lib.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/richfaces-api-3.3.2.SR1.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/richfaces-impl-3.3.2.SR1.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/richfaces-ui-3.3.2.SR1.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/jsf-facelets.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/jsf-tlds.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/jstl.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/unoil-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/unoloader.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/JARS/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.ejb3.classpathContainer/WildFly 14"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jayant/Documents/javax.faces-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/jayant/Documents/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/WildFly 14.0 Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.jsf"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="1.2" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+ <managed-bean>
+  <managed-bean-name>customHomeAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.CustomHomeAction</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>sideMenuAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.SideMenuAction</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>applicationEntryAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.ApplicationEntryAction</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>userManagmentAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.UserManagmentAction</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>downloadAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.DownloadAction</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>oTPAction</managed-bean-name>
+  <managed-bean-class>com.mentor.jboss.home.action.OTPAction</managed-bean-class>
+  <managed-bean-scope>request</managed-bean-scope>
+ </managed-bean>
+ <application>
+  <view-handler>org.jboss.portletbridge.application.PortletViewHandler</view-handler>
+  <state-manager>org.jboss.portletbridge.application.PortletStateManager</state-manager>
+  <message-bundle>com.mentor.jboss.home.nl.homepagemsg</message-bundle>
+  <locale-config>
+   <default-locale>en</default-locale>
+   <supported-locale>hi_IN</supported-locale>
+  </locale-config>
+ </application>
+</faces-config>

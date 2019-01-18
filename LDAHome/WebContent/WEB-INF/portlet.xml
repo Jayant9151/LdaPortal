@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app
+	xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	version="2.0">
+
+	<portlet>
+		<portlet-name>CustomHome</portlet-name>
+		<display-name>CustomHome JSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/CustomHome.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>CustomHome JSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>SideMenuPortlet</portlet-name>
+		<display-name>SideMenu Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/SideMenu.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>SideMenu Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>UserRoleManagmentPortlet</portlet-name>
+		<display-name>UserRoleManagment Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/UserRoleManagment.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>UserRoleManagment Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>UserActivationDeActivationPortlet</portlet-name>
+		<display-name>UserActivationDeActivation Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/UserActivationDeActivation.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>UserActivationDeActivation Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>ResetUserPasswordPortlet</portlet-name>
+		<display-name>ResetUserPassword Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/ResetUserPassword.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>ResetUserPassword Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>OfficerContactEntryPortlet</portlet-name>
+		<display-name>OfficerContactEntryJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/OfficerContactEntry.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>OfficerContactEntryJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>GenericFacesPortlet</portlet-name>
+		<display-name>GenericFacesPortlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>GenericFacesPortlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>ContactUsPortlet</portlet-name>
+		<display-name>ContactUsJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/ContactUs.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>ContactUsJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>DownloadMasterPortlet</portlet-name>
+		<display-name>DownloadMasterJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/DownloadMaster.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>DownloadMasterJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>Home_DownloadPortlet</portlet-name>
+		<display-name>Home_DownloadJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/Home_Download.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Home_DownloadJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>sessionExpiredPortlet</portlet-name>
+		<display-name>sessionExpiredJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/sessionExpired.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.edit</name>
+			<value>/jsf/edit.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.help</name>
+			<value>/jsf/help.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>sessionExpiredJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>ZipUploadmasterPortlet</portlet-name>
+		<display-name>ZipUploadmasterJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/ZipUploadmaster.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>ZipUploadmasterJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>EstbManualPortlet</portlet-name>
+		<display-name>EstbManualJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/EstbManual.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.edit</name>
+			<value>/jsf/edit.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.help</name>
+			<value>/jsf/help.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>EstbManualJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>OTPPortlet</portlet-name>
+		<display-name>OTPJSF Portlet</display-name>
+		<portlet-class>
+			javax.portlet.faces.GenericFacesPortlet
+		</portlet-class>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/jsf/OTP.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.edit</name>
+			<value>/jsf/edit.jsp</value>
+		</init-param>
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.help</name>
+			<value>/jsf/help.jsp</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>OTPJSF Portlet</title>
+		</portlet-info>
+	</portlet>
+</portlet-app>
